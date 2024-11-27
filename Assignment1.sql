@@ -20,11 +20,11 @@ SELECT ProductID, Name, Color, ListPrice
 FROM Production.Product
 WHERE Color IS NOT NULL AND ListPrice>0
 --1.6
-SELECT Name, Color
+SELECT Name + ' '+ Color AS Name_Color
 FROM Production.Product
 WHERE  Color IS NOT NULL
 --1.7
-SELECT TOP 6 Name, Color
+SELECT 'NAME: ' +Name +' -- COLOR: ' + Color
 FROM Production.Product
 WHERE  Color IS NOT NULL
 --1.8
