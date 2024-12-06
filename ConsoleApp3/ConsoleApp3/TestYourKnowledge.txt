@@ -1,0 +1,46 @@
+1.public: members can be accessed anywhere
+  private: members can only be accessed within the class.
+  protected: members can be accessed by current class and its child classes
+  internal: accessible with in the same project
+  protected internal: accessible within the same project and derived classes
+  private protected: members can be accessed within the class or from derived class in the same project
+
+2. static: Indicate the member that belong to itself rather than to the instance of it. It can be accessed without 
+    creating an object of the class.
+   const: It defines a value that is evaluated during the runtime, and can not be changed after defined.
+   readonly: It defines a field that can takes different values for different instances of a class, but the value 
+   of the instance can not be changed once set.
+   
+3. Constructor is a special type of method that is used to initialize a new object. It has the same name of the class 
+    without any return value, even void. By default, it takes no argument.
+4. Partial keyword is used for splitting a class, struct or interface across multiple files. It provides flexibility and 
+    modularity in large projects.
+5. Tuple is a data structure that can group multiple data in a single unit but can be of different types.
+6. Record is 
+7. Overloading: In the same class, methods that of same name, same access modifier but take different argument and can 
+                return different output .
+   Overriding: It happens between base class and its derived class. A method already declared in the base class, but in 
+                child class, we can provide different implementations. These methods have same name, same access modifiers,
+                and same input/output parameters.
+8. A field is a variable that is declared directly in a class. While for property, we use get and set accessors to encapsulate the field.
+9. Left the () blank.
+10. Interface is a contract that contains a set of members that a class must implement. It does not contain any implementation
+    details just the signatures of the members.
+    Both abstract class and interface can not be instantiated. But abstract class can contain fully implemented members and 
+    abstract members. 
+11. All public.
+12. True
+13. True
+14. False
+15. False
+16. True
+17. True
+18. True
+19. False
+20. False
+21. True
+22. False
+23. True
+
+
+
