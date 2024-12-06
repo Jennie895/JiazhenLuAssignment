@@ -1,0 +1,25 @@
+Arrays and Strings
+
+1.
+String is immutable, so if we don't want alter the string value, then go with string.
+StringBuilder can append and change every character in string, if we have such request, then choose StringBuilder.
+
+2.
+System.Array
+
+3.
+Use Array.Sort();
+
+4.
+Total number of elements is array.Length()+1
+
+5.
+Only the data of the same datatype can be stored in a single array.
+
+6.
+System.Array.CopyTo() is used to copy the value to an existing array, while System.Array.Clone will create a new array 
+of the same type with the same value. 
+Both modifying the original array won't change the new array.
+But if the element in the array is an object, since both copy and clone are shallow copy, any modifying on the object will 
+affect the array as well.
+

@@ -1,0 +1,14 @@
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.AssemblyInfoInputs.cache
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.AssemblyInfo.cs
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.csproj.CoreCompileInputs.cache
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/bin/Debug/net8.0/JiazhenAssignment
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/bin/Debug/net8.0/JiazhenAssignment.deps.json
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/bin/Debug/net8.0/JiazhenAssignment.runtimeconfig.json
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/bin/Debug/net8.0/JiazhenAssignment.dll
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/bin/Debug/net8.0/JiazhenAssignment.pdb
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.dll
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/refint/JiazhenAssignment.dll
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.pdb
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/JiazhenAssignment.genruntimeconfig.cache
+/Users/jiazhenlu/RiderProjects/JiazhenAssignment/JiazhenAssignment/obj/Debug/net8.0/ref/JiazhenAssignment.dll

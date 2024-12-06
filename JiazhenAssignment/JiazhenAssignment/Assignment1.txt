@@ -1,0 +1,51 @@
+Test your Knowledge
+1. A person’s telephone number: string
+   A person’s height: float
+   A person’s age: int
+   A person’s gender (Male, Female, Prefer Not To Answer): string
+   A person’s salary: decimal
+   A book’s ISBN : string
+   A book’s price : decimal
+   A book’s shipping weight : double
+   A country’s population: uint
+   The number of stars in the universe: ulong
+   The number of employees in each of the small or medium businesses in the
+   United Kingdom (up to about 50,000 employees per business: short
+ 
+ 2.What are the difference between value type and reference type variables? What is
+   boxing and unboxing?
+   Differences:
+   Value type hold the actual value of the variable, while reference store the address for the value in the memory;
+   Value type is stored in the stack memory,which won't be collected by the garbage collector. 
+   But reference type stored in the heap memory, which will be collected by the garbage collector.
+   Value type do not accept null value by default, while reference type accepts.
+   Value type can be created by struct and enum, while reference type is created by object, interface, array and delegate.
+   
+   Boxing is the conversion of the value type to the reference type.
+   Unboxing is the verse vice.
+   
+ 3. Managed resource is the resource managed by .NET runtime environment(CLR) directly,
+    which means it is organized by the garbage collector.
+    On the other hand, unmanaged resource is a resource that .NET runtime does not manage.
+ 
+ 4. Garbage collector can manage the allocation and memory for the application automatically.We do not write specific code 
+    for memory management task.
+    
+    
+
+Controlling Flow and Converting Types
+1.There will be a runtime error indicate division by constant zero, if you run it, there will be an error message on Console.
+2.Same error message as 1.
+3.It will wrap around the maximum value of the int type can store. e.g int.MaxValue + 1 output is the int.MinValue
+4. x=y++ means y increases its value after assign its value to x;
+    while x = ++y means y increases its value before assign to x
+   if y=3, execute x=y++ gives us x=3,y=4; execute x=++y gives us x=4,y=4.
+5. Break will exit the loop, but execute the code following the loop.
+   Continue will jump out of current iteration and proceed to next iteration.
+   Return will exit the current method.
+6. They are initialization, iteration condition and iteration gap. None of them is strictly required.
+7. = is used to assign value to a variable, while == is used for checking the equality.
+8. No compile error.
+9. We use _ to catch all the other cases that hasn't been matched.
+10. IEnumerable
+ 
