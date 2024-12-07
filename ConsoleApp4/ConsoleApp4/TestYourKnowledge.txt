@@ -1,0 +1,10 @@
+1. Generics allows us to design a class or method without specify the types until the class is created or method called.
+2. List<T> list = new List<string>();
+3. Two, one for the keys, one represent the type of values.
+4. False.
+5. list.Add();
+6. list.Delete(); list.clear();
+7. use <> after the class name.
+8. False
+9. True
+10. True
