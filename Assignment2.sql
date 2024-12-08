@@ -29,6 +29,7 @@ WHERE ProductSubcategoryID IS NULL
 --5
 SELECT SUM(Quantity) AS ToalQuantity
 FROM Production.ProductInventory
+GROUP BY ProductID;
 
 --6
 SELECT ProductID, SUM(Quantity) AS TheSum
