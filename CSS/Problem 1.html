@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem 1</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+      header {
+        display: flex;
+        background-color: aqua;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      a {
+        color: aliceblue;
+        text-decoration: none;
+        display: block;
+      }
+      a :hover {
+        text-decoration: underline;
+      }
+      .dropdown-menu {
+        display: none;
+        list-style: none;
+        background-color: aqua;
+        position: absolute;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .dropdown-menu li {
+        display: block;
+      }
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+      .logo {
+        display: flex;
+
+        align-items: center;
+        margin-right: 10px;
+      }
+      li {
+        display: inline-block;
+        list-style: none;
+        gap: 15px;
+      }
+      .container {
+        display: flexbox;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="https://cdn.theorg.com/c92dac26-ca0e-4248-b69c-79d3af3205b1_medium.jpg"
+          alt="Antra Logo"
+          width="100px"
+          height="80px"
+        />
+      </div>
+      <div class="container">
+        <div>
+          <span class="icon">🔔 0</span>
+          <span>User</span>
+          <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search..." />
+            <button class="search-button">🔍</button>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="https://antra.com/technology-resources/">NEWS</a></li>
+            <li><a href="https://antra.com/job-opportunities/">JOBS</a></li>
+            <li><a href="https://static.adp.com/static/redbox/">MyAntra</a></li>
+            <li class="dropdown">
+              <a href="https://antra.com/about-us/">About Us▼</a>
+              <ul class="dropdown-menu">
+                <li><a href="https://antra.com/contact/"> Contact Us</a></li>
+                <li><a href="https://antra.com/blog/">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
